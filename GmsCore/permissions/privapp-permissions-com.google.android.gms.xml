@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 chris42 (based on work of ale5k and nanolx)
+     SPDX-License-Identifer: GPL-3.0-or-later
+     This file contains privapp-permission whitelists to be granted by default.
+     Granting these permissions could prevent issues on some ROMs or on non-clean installations.
+-->
+
+    <permissions>
+        <privapp-permissions package="com.google.android.gms">
+            <permission name="android.permission.FAKE_PACKAGE_SIGNATURE"/>
+            <permission name="android.permission.INSTALL_LOCATION_PROVIDER"/>
+            <permission name="android.permission.GET_ACCOUNTS" />
+            <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
+            <permission name="android.permission.LOCATION_HARDWARE" />
+        </privapp-permissions>
+    </permissions>

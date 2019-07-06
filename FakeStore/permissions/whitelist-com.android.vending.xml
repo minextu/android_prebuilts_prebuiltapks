@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 chris42 (based on work of ale5k and nanolx)
+     SPDX-License-Identifer: GPL-3.0-or-later
+     This file contains whitelists for system functions to be granted by default.
+     Granting these permissions are necessary, e.g. power saving exception
+-->
+
+<config>
+    <!-- Ensure app store applications has internet access to manage updates. -->
+    <allow-in-power-save-except-idle package="com.android.vending" />
+</config>
+

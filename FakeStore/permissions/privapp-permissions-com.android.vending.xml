@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 chris42 (based on work of ale5k and nanolx)
+     SPDX-License-Identifer: GPL-3.0-or-later
+     This file contains privapp-permission whitelists to be granted by default.
+     Granting these permissions could prevent issues on some ROMs or on non-clean installations.
+-->
+
+<permissions>
+    <privapp-permissions package="com.android.vending">
+        <permission name="android.permission.FAKE_PACKAGE_SIGNATURE"/>
+    </privapp-permissions>
+</permissions>

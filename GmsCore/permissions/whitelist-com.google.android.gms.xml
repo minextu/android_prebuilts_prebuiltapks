@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 chris42 (based on work of ale5k and nanolx)
+     SPDX-License-Identifer: GPL-3.0-or-later
+     This file contains whitelists for system functions to be granted by default.
+     Granting these permissions are necessary, e.g. power saving exception
+-->
+
+<config>
+    <!-- microG GmsCore must always have network access for GCM. -->
+    <allow-in-power-save package="com.google.android.gms" />
+    <allow-in-data-usage-save package="com.google.android.gms" />
+    <allow-unthrottled-location package="com.google.android.gms" />
+
+    <!-- Apps that have ability to run as system user. -->
+    <system-user-whitelisted-app package="com.google.android.gms" />
+
+    <!-- Third party apps allowed to access the entire private API  -->
+    <hidden-api-whitelisted-app package="com.google.android.gms" />
+</config>
