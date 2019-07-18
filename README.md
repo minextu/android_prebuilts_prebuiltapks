@@ -24,3 +24,10 @@ PRODUCT_PACKAGES += \
    * DejaVu, LocalGSM, WLAN backends are completely on device
    * Mozilla and Apple backends use the respecive online databases
    * Nominatim backend using the MapQuest online service for adress location
+* BromiteSystemWebView to replace regular AOSP webview
+
+Thanks for inspiration and code
+- Romain Hunault (https://gitlab.e.foundation/e/os/android_prebuilts_prebuiltapks)
+- Lineageos 4microg (https://github.com/lineageos4microg/android_prebuilts_prebuiltapks)
+- Nanolx (https://gitlab.com/Nanolx/NanoDroid)
+- ale5000 (https://github.com/micro5k/microg-unofficial-installer)
