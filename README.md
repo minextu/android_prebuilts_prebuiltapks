@@ -1,9 +1,11 @@
 # Prebuilt APKs
 
-This is a collection of FOSS APKs, coupled with the respective Android.mk for an easy integration in the Android build system. These are just the official unmodified prebuilt binaries.
-You can add them to your devices .mk file by using their name in PRODUCT_PACKAGES
+This is a collection of FOSS APKs, coupled with the respective Android.mk for an easy integration in the Android build system. These are just the official unmodified prebuilt binaries. In case from microg from the microg website, in other cases from fdroid to allow update via fdroid. The microg repository is added to fdroid to allow updates if needed.
 
-for example microg with on device location backends and online adress translation:
+This was created for my personal use.
+
+You can add them to a device .mk file by using their name in PRODUCT_PACKAGES
+For example microg with on device location backends and online adress translation:
 
 PRODUCT_PACKAGES += \
    GmsCore \
